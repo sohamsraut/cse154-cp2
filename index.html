@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--
+  Name: Soham Raut
+  Date: April 20, 2022
+  Section: CSE 154 AF
+  This is the "About Me" page for my portfolio website. It gives small details about me
+  such as the classes I've taken, and some pictures of Seattle I've taken.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/aquire" rel="stylesheet">
+    <script src="index.js"></script>
+    <title>About Me</title>
+  </head>
+  <body>
+    <nav id="top">
+      <a href="#about">About</a>
+      <a href="#current">Classes</a>
+      <a href="#pics">Gallery</a>
+      <a href="cardboard.html" target="_blank">Creations</a>
+    </nav>
+    <h1 id="name">Soham Raut</h1>
+    <section id="about">
+      <h1>About Me</h1>
+      <!--Picture of me taken by a friend in the Quad at UW-->
+      <img class="left-align-img" src="img/photo2.jpg" alt="Me with cherry blossoms">
+      <p id="desc"> Welcome to the site! My name is Soham Raut, and I am an international
+        first-year student majoring in Computer Science! I was born in Nagpur, India, but I
+        have spent almost all of my life in the city of Muscat, Oman. I have some experience
+        in programming, mainly in Java and Python. I have always wanted to learn web development,
+        and am very excited to learn more about full-stack development tools!
+      </p>
+    </section>
+    <!-- Click the classes for the description! -->
+    <section id="current">
+      <h2>Classes I'm currently taking</h2>
+      <ul>
+        <li>CSE 154<span>Web Programming</span></li>
+        <li>MATH 126<span>Calculus and Analytical Geometry III</span></li>
+        <li>SOC 225<span>Data and Society</span></li>
+      </ul>
+    </section>
+    <section id="taken">
+      <h2>Classes I've taken</h2>
+      <ul>
+        <li>CSE 143<span>Computer Programming II</span></li>
+        <li>MATH 125<span>Calculus and Analytical Geometry II</span></li>
+        <li>ARCH 150<span>Appreciation of Architecture I</span></li>
+        <li>CSE 480<span>Computer Ethics Seminar</span></li>
+        <li>CSE 142<span>Computer Programming I</span></li>
+        <li>MATH 124<span>Calculus and Analytical Geometry I</span></li>
+        <li>GEN ST 199<span>The University Community</span></li>
+        <li>ENGL 131<span>Composition: Exposition</span></li>
+        <li>CSE 190<span>Direct Admit Seminar</span></li>
+      </ul>
+    </section>
+    <section id="pics">
+      <h2>Top Shots - Seattle</h2>
+      <article>
+        <!-- All pictures in this section are taken by me-->
+        <button id="left">&lt;</button>
+        <figure id="img-slide"></figure>
+        <button id="right">&gt;</button>
+      </article>
+      <p class="small-center">Captured by me on Vivo Y72 5G</p>
+    </section>
+      <section>
+        <h3>One of my favorite quotes</h3>
+        <article>
+          <blockquote>
+            <p>
+              <!-- Quote found on Goodreads.com:
+                https://www.goodreads.com/quotes/8337695-if-you-only-do-what-you-can-do-you-will
+              -->
+              <a href="https://www.goodreads.com/quotes/8337695-if-you-only-do-what-you-can-do-you-will">
+                &quot;If you only do what you can do, <br>
+                <em>you will never be more than you are now.</em> &quot;
+              </a>
+            </p>
+            <!--From "Kung Fu Panda 3" on IMDB: https://www.imdb.com/title/tt2267968/ -->
+            <a href="https://www.imdb.com/title/tt2267968/">
+              <footer>
+                Master Shifu, <em>Kung Fu Panda 3</em>
+              </footer>
+            </a>
+          </blockquote>
+        </article>
+      </section>
+    <footer class="small-center">
+      © Soham Raut, 2022. All other attributions cited in document or page source.
+    </footer>
+  </body>
+</html>
