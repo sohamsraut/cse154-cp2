@@ -1,0 +1,198 @@
+/*
+  Name: Soham Raut
+  Date: April 20, 2022
+  Section: CSE 154 AF
+  This is the styles.css page used in every page of my portfolio: about.html and cardboard.html.
+  It uses a black-orange theme with changes when the user hovers over some items.
+*/
+
+body, img {
+  background-color: #000;
+  font-family: 'Comfortaa', cursive;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+#name, h1, h2, h3 {
+  border: 11px solid transparent;
+  border-radius: 15px;
+  /* Border Image by Vahntreorr on DeviantArt:
+  "https://www.deviantart.com/vahntreorr/art/Simple-Futuristic-Border-Design-ver2-White-Light-
+  624247240" */
+  border-image: url("img/border_white.png") 30;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 10px;
+}
+
+#name, .small-center, #top a, button, figcaption, blockquote footer {
+  text-align: center;
+}
+
+.left-align-img, #top a, button {
+  float: left;
+}
+
+.left-align-img {
+  width: 290px;
+}
+
+#desc {
+  font-size: 150%;
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+
+.creation, #desc {
+  margin-left: 30%;
+}
+
+img {
+  width: 50%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.creation {
+  margin-top: 7%;
+}
+
+.small-center {
+  font-size: small;
+  margin-top: 10px;
+  padding: 5px 2px;
+}
+
+section ul {
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+h2 + ul li {
+  margin: 3px 20px;
+  padding: 20px;
+  border-radius: 20px;
+  flex-direction: column;
+  background-color: #101010;
+  font-size: 30px;
+  width: 200px;
+}
+
+li span, #top a, button {
+  font-size: 15px;
+}
+
+li span {
+  display: none;
+}
+
+.visible, img {
+  display: block;
+}
+
+#top {
+  left: 0;
+  top: 0;
+  position: fixed;
+  overflow: hidden;
+}
+
+button {
+  font-family: inherit;
+  background-color: inherit;
+}
+
+#top a, button {
+  padding: 14px;
+  border-radius: 25px;
+  margin: 5px 10px;
+}
+
+#top a:hover, h2 + ul li:hover, button:hover {
+  border-color: white;
+}
+
+#name {
+  font-size: 75px;
+  margin-top: 70px;
+  /* Background image from
+  https://www.pinterest.com/pin/modern-3d-geometry-shapes-black-lines-wi--152559506115789697/ */
+  background-image: url("img/banner.jpg");
+  background-size: 1250px;
+  background-position: center;
+}
+
+#pics button {
+  font-size: 60px;
+  border-radius: 50px;
+  margin: auto;
+}
+
+#pics h2 + article {
+  justify-content: space-evenly;
+}
+
+figure {
+  border: 5px solid transparent;
+  border-image: url("img/border_white.png") 30 stretch;
+  margin-bottom: 0;
+}
+
+figure img {
+  width: 625px;
+  height: 500px;
+}
+
+figure img, #pics button {
+  padding: 30px;
+}
+
+figcaption {
+  font-size: 20px;
+}
+
+body, #name, a, button, footer {
+  color: white;
+}
+
+h1, h2, h3, #top a:hover, h2 + ul li:hover, button:hover {
+  background-color: orange;
+  color: black;
+}
+
+h2 + ul li, #pics h2 + article, section ul {
+  display: flex;
+}
+
+#name, #top {
+  font-family: 'Aquire', sans-serif;
+}
+
+footer, .small-center {
+  border-radius: 10px;
+}
+
+footer {
+  width: 500px;
+}
+
+footer.small-center {
+  margin-top: 40px;
+}
+
+blockquote {
+  font-size: 25px;
+  border-left: 6px solid orange;
+  padding-left: 10px;
+}
+
+footer, h2 + ul li, #top a, button, .small-center {
+  border: 3px solid orange;
+}
+
+footer.small-center, #top {
+  background-color: #333;
+  width: 100%;
+}
